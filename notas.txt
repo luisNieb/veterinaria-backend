@@ -1,0 +1,28 @@
+crear el proyecto npm init
+
+**instalar express y otras dependencias
+npm i express
+npm i -D @types/express
+npm i -D nodemon ts-node typescript
+npm i mongoose dotenv colors
+
+
+dependencia par hashear password
+ npm i bcrypt
+
+
+instalar dependencia para JSON web token
+npm i jsonwebtoken
+
+
+Enviar email 
+  npm i nodemailer
+
+var transport = nodemailer.createTransport({
+  host: "sandbox.smtp.mailtrap.io",
+  port: 2525,
+  auth: {
+    user: "c6f51bdfd526e4",
+    pass: "7b84dc9af908cf"
+  }
+});
